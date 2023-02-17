@@ -1,6 +1,6 @@
 
 :root{
-  --fuentePrincipal: font-family: 'Josefin Sans', sans-serif;
+  --fuentePrincipal: font-family: 'Oswald', sans-serif;
   --blanco: #FFF;
   --ColorEmpresa: #004C99;
   --negro: #000;
@@ -12,6 +12,7 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
+  font-family: sans-serif;
 }
   
   /* general */  
@@ -20,7 +21,7 @@ html{
   font-size: 62.5%;
 }
   
-h1,h2,h3{
+h1,h2,h3, p{
   font-family: var(--fuentePrincipal);
 }
   
@@ -37,6 +38,10 @@ h4{
   font-size: 2.8rem;
 }
 
+p{
+  font-size: 2rem;
+}
+
 a{
   text-decoration: none;
 }
@@ -45,47 +50,24 @@ a{
 
 /*header*/ 
 
-.contenedor{
-  max-width: 120rem;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.navegacion-enlace{
-  padding-right: 2rem;
-}
-
-.navegacion-principal {
+header{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  margin: 5px;
 }
- 
-@media (min-width: 480px) {
-  .navegacion-principal {
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-}
-
-@media (min-width: 768px) {
-    .barra{
-      display: flex;
-      justify-content: space-between; /*alinear horizontalmente*/
-      align-items: center; /*alinear verticalmente*/
-    }
+header .logo{
+  padding-left: 20px;
 }
 
-.navegacion-enlace{
-color: var(--ColorEmpresa);
-font-size: 2rem;
-padding-right: 1.5rem;
-
+header .navegacion{
+  padding-right: 50px;
 }
-
-.navegacion-enlace:hover, .navegacion_enlace--activa{
-  color: var(--negro);
+li{
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 15px;
 }
 
 /*imagen con sobre nosotros*/ 
@@ -111,4 +93,37 @@ padding-right: 1.5rem;
 
 .contenido-hero, h2{
   color: var(--blanco);
+}
+
+/*primera seccion*/
+
+.container-primera{
+  background-color: var(--blanco);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 25rem;
+  padding-right: 25rem;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+.titulo, h1{
+  color: #004C99;
+}
+
+/*Footer de la pagina*/
+footer{
+  background: #111;
+  padding: 15px 23px;
+  color: #fff;
+  text-align: center;
+}
+footer span a{
+  color: rgb(143, 26, 5);
+  text-decoration: none;
+}
+footer span a:hover{
+  text-decoration: underline;
 }
