@@ -4,30 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Menú Responsive</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <header class="contenedor">
-        <div class="barra">    
-            <a href="index.html">
-                <img src="img/logo.jpg" alt="logo">
-            </a>
-            <nav class="navegacion-principal">
-                <a class="navegacion-enlace navegacion_enlace--activa" href="#">Home</a>
-                <a class="navegacion-enlace" href="#">Proyectos</a>
-                <a class="navegacion-enlace" href="#">Servicios</a>
-                <a class="navegacion-enlace" href="#">Productos</a>
-                <a class="navegacion-enlace" href="#">Contacto</a>
-            </nav>
-        </div>
-    </header>
-
-    <section class="hero">
-        <div class="contenido-hero">
-            <h2>waki talca</h2>
-        </div>
-
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars fa-2x"></i>
+        </label>
+        <a href="#" class="enlace">
+            <img src="img/logo.jpg" alt="" class="logo">
+        </a>
+        <ul>
+            <li><a class="active" href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Portafolio</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <section class="Titulo"><BR><BR> 
+        Sobre Nosotros
     </section>
+
+    <div class="contenedor dos-columnas">
+        <article class="entrada-blog">
+
+            <h1>
+                Estructuras cabilla
+            </h1>
+
+            <BR></BR>
+            
+            <p id="primer-parrafo">
+                Somos una empresa que nace el año 2013 en la ciudad de Buin y que se orienta a 
+                la ejecución de proyectos industriales, obras civiles, obras de edificación, obras especificas, 
+                proyectos de estructuras y construcción de estructuras metálicas.  
+            </p>
+            <p id="segundo-parrafo">
+                La experiencia y conocimiento del rubro, hacen de Cabilla una empresa confiable, que no sólo se preocupa 
+                de la calidad de aquello que ejecuta directamente, sino que exige a sus proveedores y subcontratistas el 
+                mismo nivel de compromiso y responsabilidad, que van orientados a desarrollar y aumentar la satisfacción de 
+                sus clientes. Disponemos nuestros recursos humanos y técnicos para atender rápidamente a todas las necesidades 
+                de nuestros clientes, con  una atención personalizada y respondiendo en los plazos y condiciones establecidas.
+            </p>
+        </article>
+        <div class="box">
+        
+            <img id="foto-seccion1" src="foto-seccion1.jpg" alt="">
+        </article></div>
+
+    </div>
+
+    <div class="contenedor dos-filas">
+        <article class="">
+
+
+
+        </article>
+
+
+
+
+    </div>>
+
+
 </body>
 </html>
