@@ -80,7 +80,7 @@ nav ul li a{
 /* imagen de inicio ("Sobre Nosotros")*/
 
 section{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/fondo_header.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fondo_header.jpg");
     background-size: cover;
     background-position: center center;
     height: calc(300px - 80px);
@@ -271,9 +271,17 @@ section{
 }
 
 #tercer-parrafo{
-
-    margin: 50px 30px;
+    text-align: left;
+    margin: 60px 30px;
+    margin: 60px 30px;
+    padding-right: 60%;
     
+}
+
+#titulo{
+
+    text-align: left;
+
 }
 
 .entrada-blog h1{
@@ -299,15 +307,27 @@ section{
 
 #caja-c1{
     grid-column: 1/4;
+     
+}
+
+#caja-c1 h1{
+    margin-left: 30px;
+    text-align: left;
+    color: #4c7cc4;
 }
 
 .caja-producto{
     width: 400px;
-    height: 220px;
+    height: 250px;
     background-color: rgb(241, 241, 241);
     margin: 20px;
     border-color: #000;
     border-radius: 50px;
+}
+
+.caja-producto:hover{
+    transform: scale(1.1);
+   
 }
 
 .caja-producto p{
@@ -331,10 +351,12 @@ section{
 }
 
 .iconos{
-    margin-bottom: 10px;
-    align-items: center;
-    width: 30px;
+    margin-left: 185px;
+    margin-top: 20px;
+    width: 50px;
 }
+
+
 
 /*footer*/
 
