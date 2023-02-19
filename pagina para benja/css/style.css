@@ -1,6 +1,6 @@
 
 :root{
-  --fuentePrincipal: font-family: 'Oswald', sans-serif;
+  --fuentePrincipal: font-family: 'Josefin Sans', sans-serif;
   --blanco: #FFF;
   --ColorEmpresa: #004C99;
   --negro: #000;
@@ -20,7 +20,7 @@ html{
   font-size: 62.5%;
 }
   
-h1,h2,h3, p{
+h1,h2,h3{
   font-family: var(--fuentePrincipal);
 }
   
@@ -35,10 +35,6 @@ h3{
 }
 h4{
   font-size: 2.8rem;
-}
-
-p{
-  font-size: 2rem;
 }
 
 a{
@@ -115,22 +111,4 @@ padding-right: 1.5rem;
 
 .contenido-hero, h2{
   color: var(--blanco);
-}
-
-/*primera seccion*/
-
-.container-primera{
-  background-color: var(--blanco);
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  padding-left: 25rem;
-  padding-right: 25rem;
-  padding-top: 15rem;
-  padding-bottom: 15rem;
-}
-
-.titulo, h1{
-  color: #004C99;
 }

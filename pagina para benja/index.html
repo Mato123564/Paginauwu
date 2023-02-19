@@ -4,51 +4,129 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Document</title>
+    <title>Menú Responsive</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    
 </head>
 <body>
-    <header class="contenedor">
-        <div class="barra">    
-            <a href="index.html">
-                <img src="img/logo.jpg" alt="logo">
-            </a>
-            <nav class="navegacion-principal">
-                <a class="navegacion-enlace navegacion_enlace--activa" href="#">Home</a>
-                <a class="navegacion-enlace" href="#">Proyectos</a>
-                <a class="navegacion-enlace" href="#">Servicios</a>
-                <a class="navegacion-enlace" href="#">Productos</a>
-                <a class="navegacion-enlace" href="#">Contacto</a>
-            </nav>
-        </div>
-    </header>
-
-    <section class="hero">
-        <div class="contenido-hero">
-            <h2>Sobre nosotros</h2>
-        </div>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars fa-2x"></i>
+        </label>
+        <a href="#" class="enlace">
+            <img src="img/logo.jpg" alt="" class="logo">
+        </a>
+        <ul>
+            <li><a class="active" href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <section class="Titulo"><BR><BR> 
+        <h1>Sobre Nosotros</h1>
     </section>
 
-    <section class="primera-mitad">
-        <div class="container-primera">
-            <div class="primera-mitad__texto">
-            <h1 class="titulo">Estructuras Cabilla</h1>
-            <p>Somos una empresa que nace el año 2013 en la ciudad de Buin y que se orienta a la ejecución de proyectos industriales, 
-                obras civiles, obras de edificación, obras especificas, proyectos de estructuras y construcción de estructuras metálicas.  
+    <div class="contenedor dos-columnas">
+        <article class="entrada-blog">
+
+            <h1>
+                Estructuras cabilla
+            </h1>
+
+            <BR></BR>
+            
+            <p id="primer-parrafo">
+                Somos una empresa que nace el año 2013 en la ciudad de Buin y que se orienta a 
+                la ejecución de proyectos industriales, obras civiles, obras de edificación, obras especificas, 
+                proyectos de estructuras y construcción de estructuras metálicas.  
             </p>
-            <p>
-                    La experiencia y conocimiento del rubro, hacen de Cabilla una empresa confiable, que no sólo se preocupa de la calidad de aquello que ejecuta directamente, 
-                    sino que exige a sus proveedores y subcontratistas el mismo nivel de compromiso y responsabilidad, que van orientados a desarrollar y aumentar la satisfacción 
-                    de sus clientes. Disponemos nuestros recursos humanos y técnicos para atender rápidamente a todas las necesidades de nuestros clientes, con  una atención 
-                    personalizada y respondiendo en los plazos y condiciones establecidas.
+            <p id="segundo-parrafo">
+                La experiencia y conocimiento del rubro, hacen de Cabilla una empresa confiable, que no sólo se preocupa 
+                de la calidad de aquello que ejecuta directamente, sino que exige a sus proveedores y subcontratistas el 
+                mismo nivel de compromiso y responsabilidad, que van orientados a desarrollar y aumentar la satisfacción de 
+                sus clientes. Disponemos nuestros recursos humanos y técnicos para atender rápidamente a todas las necesidades 
+                de nuestros clientes, con  una atención personalizada y respondiendo en los plazos y condiciones establecidas.
             </p>
+        </article>
+        <div class="box">
+        
+            <img id="foto-seccion1" src="foto-seccion1.jpg" alt="">
+        </article>
+    </div>
+    </div>
+    <div class="contenedor-especializacion">
+        <div class="grid-layout">
+            <div id="caja-c1">
+                <h1 class="Producto">Nuestra Especialización</h1>
+
+                <p id="tercer-parrafo"> 
+                    Somos especialistas en estructuras metálicas de cualquier tipo, nos dedicamos a satisfacer sus necesidades 
+                    constructivas con el profesionalismo que nos caracteriza, estamos preparados para asumir cualquier proyecto y 
+                    ejecutarlo de manera eficiente en costos y tiempos involucrados.
+                </p>
+
+               
+                
             </div>
 
-            <div class="primera-mitad__imagen">
-                <img src="img/foto-seccion1.jpg" alt="foto seccion 1">
+            <div class="caja-producto" id="caja-c2">
+
+                <img  src="https://cdn-icons-png.flaticon.com/512/3791/3791118.png" class="iconos">
+                
+                <h2 class="Producto">Ingeniería</h2>
+
+                <p>
+                    Contamos con un equipo profesional de Ingeniería que nos 
+                    respalda en la ejecución de cualquier proyecto a realizar. 
+                </p>
+            </div>
+
+            <div class="caja-producto" id="caja-c3">
+                <h2 class="Producto">Arquitectura</h2>
+                <p>
+                    Nuestro equipo de arquitectura realizara todos los trámites 
+                    y permisos para que su proyecto cumpla con la normativa vigente.
+                </p>
+            </div>
+
+            <div class="caja-producto" id="caja-c4">
+                <h2 class="Producto">Galpones Industriales</h2>
+                <p>
+                    Nos especializamos en galpones industriales, no obstante
+                     podemos ejecutar cualquier proyecto que se nos presente.
+                </p>
+            </div>
+
+            <div class="caja-producto" id="caja-c5">
+                <h2 class="Producto">Diseño De Estructuras</h2>
+                <p>
+                    En conjunto a usted nuestros profesionales diseñaran su 
+                    estructura o proyecto garantizando su entera satisfacción.
+                </p>
+            </div>
+
+            <div class="caja-producto" id="caja-c6">
+                <h2 class="Producto">Montaje Industrial</h2>
+                <p>
+                    Nuestros colaboradores en terreno son capaces de realizar 
+                    el montaje de cualquier estructura respetando los estándares 
+                    de construcción y normas de seguridad.
+                </p>
+            </div>
+
+            <div class="caja-producto" id="caja-c7">
+                <h2 class="Producto">Pinturas</h2>
+                <p>
+                    Aplicamos pintura intumescente, anticorrosivos y esmaltes 
+                    sintéticos, ya sea en estructuras nuevas o como mantención de 
+                    sus dependencias.
+                </p>
             </div>
         </div>
-    </section>
+
 </body>
 </html>
