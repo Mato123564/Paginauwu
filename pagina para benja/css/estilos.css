@@ -234,6 +234,7 @@ section{
         
         display: grid;
         grid-template-columns: 50% 50%; 
+       
     }
 
     .entrada-blog, p, h1{
@@ -266,23 +267,18 @@ section{
 }
 
 #segundo-parrafo{
+
     padding-bottom: 0.5rem;
     text-align: justify
 }
 
 #tercer-parrafo{
-    text-align: left;
-    margin: 60px 30px;
-    margin: 60px 30px;
+    text-align: justify;
+   
     padding-right: 60%;
     
 }
 
-#titulo{
-
-    text-align: left;
-
-}
 
 .entrada-blog h1{
     margin-top: 4.5rem;
@@ -299,8 +295,11 @@ section{
 
 /* especializaciones*/
 .grid-layout{
+    background-color: #f8f8f8;
     display: grid;
-    grid-template-columns: repeat(3,1fr); 
+    grid-template-columns: auto auto auto; 
+    padding-bottom: 4rem;
+   
 }
 
 
@@ -311,14 +310,14 @@ section{
 }
 
 #caja-c1 h1{
-    margin-left: 30px;
+
     text-align: left;
     color: #4c7cc4;
 }
 
 .caja-producto{
     width: 400px;
-    height: 250px;
+    height: 270px;
     background-color: rgb(241, 241, 241);
     margin: 20px;
     border-color: #000;
@@ -336,6 +335,7 @@ section{
     margin-left: 30px;
     margin-right: 30px;
 }
+
 
 .Producto{
     text-align: center;
@@ -361,6 +361,34 @@ section{
 /*footer*/
 
 footer{
-    background-color:#4c7cc4 ;
+    background: rgb(0,143,172);
+    background: linear-gradient(90deg, rgba(0,143,172,1) 0%, rgba(11,117,195,1) 51%, rgba(0,143,172,1) 100%);
+}
+
+.grid-footer{
+    display: grid;
+    grid-template-columns: auto auto auto; 
+    padding-bottom: 1rem;
+}
+
+#img-footer{
+
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 8px;
+    margin-right: 10px;
+}
+
+
+
+.box-footer{
+
+    color: #fff;
+    margin-top: 30px;
+}
+
+#b1{
+    padding-top: 1.5rem;
 }
 
