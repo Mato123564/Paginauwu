@@ -104,8 +104,6 @@ section{
 
 }
 
-
-
 @media (max-width: 1200px){
     .checkbtn{
         display: block;
@@ -130,12 +128,13 @@ section{
         color: #fff;
         font-size: 20px;
     }
-    li a:hover, li a.active{
+    li a:hover{
         background: none;
         color: #4c7cc4 ;
     }
     #check:checked ~ ul{
         left:0;
+
     }
 
     .box img{
@@ -148,6 +147,7 @@ section{
         padding-left: 2rem;
         padding-right: 2rem;
     }
+
 
 }
 
@@ -302,7 +302,7 @@ footer{
 
 #imagen-footer{
 
-    
+    opacity: .4;
 }
 
 .grid-layout-2{
@@ -320,7 +320,7 @@ footer{
         margin-top: 20px;
         margin-right: 40px;   
     }
-    
+
     nav ul{
         float: right;
         margin-top: -25px;
@@ -446,6 +446,7 @@ footer{
 
     .box{
         margin-top: 0; 
+        
     }
 
     #foto12{
@@ -457,6 +458,7 @@ footer{
 
     #foto-seccion1{ 
         margin: 50px 50px;
+        margin-right: 0;
         padding: 0px;
         width:300px;
         font-size: 0px;
@@ -480,6 +482,25 @@ footer{
         margin-left: 150px;
     }
 
+    #b1 p{
+
+        font-size: 8px;
+        margin-left: 5px;
+    }
+
+    #b2 p{
+
+        font-size: 8px;
+        
+       
+    }
+
+    #imagen-footer{
+
+        
+        margin-top: 10px;
+        width: 75px;
+    }
 }
 
 
@@ -551,3 +572,58 @@ footer{
 }
 
 /*--------------------------------------Productos------------------------------------------------------------------------------------------------------------------------------*/
+.seccion1-producto{
+    background-color: #fff;
+}
+
+.seccion2-producto{
+    background-color: #f8f8f8;
+}
+
+#iconos-productos{
+    width: 25px;
+    margin-right: 20px;
+    position: relative;
+    top: 5px;
+}
+
+#foto-para-producto{
+    width: 20rem;
+    margin-left: 1rem;
+    text-align: left;
+    
+}
+
+.seccion2-producto{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 10rem;
+}
+
+.seccion2-contenedor{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.items-ofrecemos #imagen-presicion{
+    width: 22rem;
+}
+
+.seccion2-contenedor h2{
+    padding-left: 3rem;
+    color:#4c7cc4;
+    padding-bottom: 1rem;
+}
+
+.seccion2-contenedor img{
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+}
+
+.box-seccion2{
+    padding-bottom: 2rem;
+}
+
+.box-seccion2 h1{
+    color: #4c7cc4;
+}
