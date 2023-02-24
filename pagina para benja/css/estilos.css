@@ -855,5 +855,130 @@ footer{
     font-weight: 500;
     text-decoration: none;
     color: #4c7cc4;
+}
+
+@media(max-width: 390px){
+
+    .contenedor-proyectos{
+        padding-left: 0px;
+        margin: 0px 0px;
+    }
+
+    #titulo-proyectos{
+        margin-bottom: 50px;
+    }
+}
+
+/*--------------------------------------Galeria------------------------------------------------------------------------------------------------------------------------------*/
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    width: 95%;
+    margin: auto;
+    grid-gap: 2rem;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.galeria img{
+    width: 100%;
+    vertical-align: top;
+    height: 400px;
+    object-fit: cover;
+}
+
+@media(max-width: 390px){
+    
+    .galeria img{
+        width: 80%;
+        height: 300px;
+        align-items: center;
+    }
+}
+
+/*----------------------------------------contacto-----------------------------------------------------------------------------------------------------------------------------¨*/
+
+.contacto-form {
+    background-color: #f7f7f7;
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+
+
+.section-contacto{
+    background-image: none;
+    
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contacto-form form label{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.contacto-form form h1{
+    text-align: center;
+}
+
+.contacto-form h1{
+
+    margin-top: 5%;
+    margin-bottom: 10%;
+    color: #4c7cc4;
+   
+}
+
+.text-area-contacto{
+    height: 35px;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+
+}
+
+.text-commnets{
+    width: 90%;
+    margin-left: 20px;
+    resize: none;
+}
+
+.enviar-text{
+    justify-self: center;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #fff;
+    text-align: center;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+
+/* Version IPAD y celulares*/
+
+@media (max-width: 769px){
+
+
+    .contacto-form {
+        width: 80%;
+    }
+
 
 }
