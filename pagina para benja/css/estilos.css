@@ -962,13 +962,17 @@ footer{
     justify-self: center;
     border-radius: 10px;
     border-color: transparent;
-    background-color: #fff;
+    background-color: #c2bfbf;
     text-align: center;
     width: 90%;
     margin-top: 10px;
     margin-left: 20px;
     margin-bottom: 5%;
     cursor: pointer;
+}
+
+.enviar-text:hover{
+    background-color: #4c7cc4;
 }
 
 /* Version IPAD y celulares*/
